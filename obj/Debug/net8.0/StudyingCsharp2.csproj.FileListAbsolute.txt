@@ -1,0 +1,15 @@
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.AssemblyInfoInputs.cache
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.AssemblyInfo.cs
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.csproj.CoreCompileInputs.cache
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.sourcelink.json
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\bin\Debug\net8.0\StudyingCsharp2.exe
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\bin\Debug\net8.0\StudyingCsharp2.deps.json
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\bin\Debug\net8.0\StudyingCsharp2.runtimeconfig.json
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\bin\Debug\net8.0\StudyingCsharp2.dll
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\bin\Debug\net8.0\StudyingCsharp2.pdb
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.dll
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\refint\StudyingCsharp2.dll
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.pdb
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.genruntimeconfig.cache
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\ref\StudyingCsharp2.dll
