@@ -5,6 +5,102 @@ using StudyingCsharp2.Models;
 using System.Globalization;
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("de-DE");
 
+//DICTIONARY
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("DF", "Distrito Federal");
+estados.Add("BA", "Bahia");
+
+Console.WriteLine(estados["DF"]);
+
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+}
+
+//remover e alterar valor
+
+estados.Remove("DF");
+
+estados["DF"] = "Distrito Federal - novo";
+
+//verificar elemento 
+string chave = "BA";
+Console.WriteLine($"Verificando o elemento: {chave}");
+
+if(estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente: {chave}");
+}
+else{
+    Console.WriteLine($"Valor não existe. É seguro adicionar a chave:{chave}");
+}
+
+//PILHA
+
+Stack<int> pilha = new Stack<int>();
+pilha.Push(2); //adicionar elementos no topo da pilha
+pilha.Push(4);
+pilha.Push(6);
+pilha.Push(1);
+pilha.Push(0);
+pilha.Push(9);
+
+foreach(int itens in pilha)
+{
+    Console.WriteLine(itens);
+}
+
+pilha.Pop();//remove o elemento do topo da pilha, ultimo elemento colocado
+
+//FILA
+
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(2); //adicionar elementos na fila
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(1);
+fila.Enqueue(0);
+fila.Enqueue(9);
+
+foreach(int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+fila.Dequeue(); //exclui o primeiro elemento da lista;
+
+//THROW 
+new ExemploExcecao().Metodo1();
+
+//LEITURA DE UM ARQUIVO
+
+try //tente
+{
+
+
+    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+ 
+    foreach(string linha in linhas)
+    {
+    Console.WriteLine(linha);
+    } 
+}
+catch (FileNotFoundException ex) //pegar 
+{
+    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado {ex.Message}");
+}
+catch (Exception ex) //pegar 
+{
+    Console.WriteLine($"Aconteceu uma exeção genérica. {ex.Message}");
+}
+finally
+{
+    Console.WriteLine("Chegou até aqui");
+}
+
+
 //FORMATAR VALORES MONETARIOS
 decimal valorMonetario = 82.70M;
 Console.WriteLine($"{valorMonetario:C}");
