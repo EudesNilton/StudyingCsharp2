@@ -5,6 +5,69 @@ using StudyingCsharp2.Models;
 using System.Globalization;
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("de-DE");
 
+//IF TERNARIO
+int number = 20;
+
+bool ePar = false;
+
+ePar = number % 2 == 0;
+
+Console.WriteLine($"O número {number} é " + (ePar ? "par" : "impar"));
+
+//IF comum
+
+if(number % 2 == 0)
+{
+    Console.WriteLine($"O número {number} é par");
+}
+else{
+    Console.WriteLine($"O numero {number} é impar");
+}
+
+
+//DESCONTRUTOR separador 
+Pessoa p90 = new Pessoa("Eudes", "Nilton");
+
+(string Name, string LastName) = p90;
+
+Console.WriteLine($"{Name} {LastName}");
+
+
+
+LeituraArquivo arquivo = new LeituraArquivo();
+arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+//descarte é só colocar o _ no lugar da variavel
+var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if(sucesso)
+{
+    foreach(string linhas in linhasArquivo)
+    {
+        Console.WriteLine(linhas);
+    }
+} 
+else
+{
+    Console.WriteLine("Não foi possivel ler o arquivo");
+}
+
+
+//TUPLA
+(int, string, string, decimal) tupla = (1, "Eudes", "Nilton", 1.70M);
+
+Console.WriteLine($"Id: {tupla.Item1}");
+Console.WriteLine($"Nome: {tupla.Item2}");
+Console.WriteLine($"Sobrenome: {tupla.Item3}");
+Console.WriteLine($"altura: {tupla.Item4}");
+
+//outra forma de tupla
+ValueTuple<int, string, string, decimal> outraFormadeTupla =  (1, "Eudes", "Nilton", 1.70M);
+
+//mais uma forma de tupla
+var tupla3 = Tuple.Create(1, "Eudes", "Nilton", 1.70M);
+
+
 //DICTIONARY
 Dictionary<string, string> estados = new Dictionary<string, string>();
 
