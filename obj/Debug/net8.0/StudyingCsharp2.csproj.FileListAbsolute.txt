@@ -13,3 +13,6 @@ C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\re
 C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.pdb
 C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.genruntimeconfig.cache
 C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\ref\StudyingCsharp2.dll
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\StudyingCsharp2.csproj.AssemblyReference.cache
+C:\Users\HP Amanda\Desktop\Nova pasta\Csharp\StudyingCsharp2\obj\Debug\net8.0\Studying.377D3B92.Up2Date

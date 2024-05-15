@@ -1,9 +1,44 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using StudyingCsharp2.Models;
+using Newtonsoft.Json;
 
 //auteração da localização do codigo
 using System.Globalization;
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("de-DE");
+
+
+//DESERILIZAR UM OBJETO
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach(Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto {venda.Produto}" + 
+    $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
+
+
+//RECEBENDO DADOS
+//Venda
+//DateTime dataAtual = DateTime.Now;
+
+//List<Venda> listaVendas = new List<Venda>();
+
+//Venda v1 = new Venda(1, "Material", 25.00M, dataAtual);
+//Venda v2 = new Venda(2, "Software", 215.00M, dataAtual);
+
+//listaVendas.Add(v1);
+//listaVendas.Add(v2);
+
+//string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+//File.WriteAllText("Arquivos/vendas.json", serializado);
+
+//Console.WriteLine(serializado);
+
+
+
 
 //IF TERNARIO
 int number = 20;
